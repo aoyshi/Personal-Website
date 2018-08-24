@@ -1,0 +1,39 @@
+
+.topic-bar {
+	width: 100%;
+	background-color: #333333;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	padding: 1% 0;
+	text-align: center;
+}
+
+.topic-bar > a {
+	width:10%;
+	font-size:1.5vw;
+	
+}
+
+.projects-title > h2 {
+	font-size: 220%;
+}
+
+.each_project > h2 {
+	font-size: 180%;
+}
+
+  .project_paragraph > h4 {
+	font-size:120%;
+	padding: 2% 0;
+  }
+
+/*==============  MEDIA  QUERIES  ===========*/
+
+  @media screen and (max-width: 768px) {
+	  
+	.topic-bar > a {
+	    font-size:1vw;
+	}  
+	  
+  }
+
